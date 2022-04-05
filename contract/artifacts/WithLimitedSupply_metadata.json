@@ -1,0 +1,138 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "uint256",
+						"name": "supply",
+						"type": "uint256"
+					}
+				],
+				"name": "SupplyChanged",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "availableTokenCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"author": "1001.digital",
+			"events": {
+				"SupplyChanged(uint256)": {
+					"details": "Emitted when the supply of this collection changes"
+				}
+			},
+			"kind": "dev",
+			"methods": {
+				"availableTokenCount()": {
+					"details": "Check whether tokens are still available",
+					"returns": {
+						"_0": "the available token count"
+					}
+				},
+				"constructor": {
+					"params": {
+						"totalSupply_": "how many tokens this collection should hold"
+					}
+				},
+				"tokenCount()": {
+					"details": "Get the current token count",
+					"returns": {
+						"_0": "the created token count"
+					}
+				},
+				"totalSupply()": {
+					"details": "Get the max Supply",
+					"returns": {
+						"_0": "the maximum token count"
+					}
+				}
+			},
+			"stateVariables": {
+				"_totalSupply": {
+					"details": "The maximum count of tokens this token tracker will hold."
+				}
+			},
+			"title": "A token tracker that limits the token supply and increments token IDs on each new mint.",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"constructor": {
+					"notice": "Instanciate the contract"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/luv.sol": "WithLimitedSupply"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/luv.sol": {
+			"keccak256": "0xddacfb4066927d4b9fc2b1804b592879d8b67feb43b542c14a494dd78838a749",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6cef3f19bb51bb070f7590d364cd115fd6421cfd334325910c764e11fab0f412",
+				"dweb:/ipfs/QmResJ8hGXjLwQ1TFdpV6AD9H2hNUp6j2gSfAqodxqp4ae"
+			]
+		}
+	},
+	"version": 1
+}

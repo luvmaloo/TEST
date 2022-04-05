@@ -1,0 +1,48 @@
+{
+	"compiler": {
+		"version": "0.8.12+commit.f00d7308"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"author": "Matt Condon (@shrugs)",
+			"details": "Provides counters that can only be incremented, decremented or reset. This can be used e.g. to track the number of elements in a mapping, issuing ERC721 ids, or counting request ids. Include with `using Counters for Counters.Counter;`",
+			"kind": "dev",
+			"methods": {},
+			"title": "Counters",
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contract/luv.sol": "Counters"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contract/luv.sol": {
+			"keccak256": "0xddacfb4066927d4b9fc2b1804b592879d8b67feb43b542c14a494dd78838a749",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6cef3f19bb51bb070f7590d364cd115fd6421cfd334325910c764e11fab0f412",
+				"dweb:/ipfs/QmResJ8hGXjLwQ1TFdpV6AD9H2hNUp6j2gSfAqodxqp4ae"
+			]
+		}
+	},
+	"version": 1
+}

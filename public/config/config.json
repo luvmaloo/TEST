@@ -1,0 +1,18 @@
+{
+  "CONTRACT_ADDRESS": "0x3C37E80b92FFE4C355b05584063e2A6aB1e5b064",
+  "SCAN_LINK": "https://testnet.explorer.emerald.oasis.dev/address/0x3C37E80b92FFE4C355b05584063e2A6aB1e5b064/",
+  "NETWORK": {
+    "NAME": "Emerald Paratime Testnet",
+    "SYMBOL": "ROSE",
+    "ID": 42261
+  },
+  "NFT_NAME": "NFT",
+  "SYMBOL": "LM",
+  "MAX_SUPPLY": 10,
+  "WEI_COST": 30000000000000000,
+  "DISPLAY_COST": 0.03,
+  "GAS_LIMIT": 285000,
+  "MARKETPLACE": "Opeansea",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/nerdy-coder-clones",
+  "SHOW_BACKGROUND": true
+}
